@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="content">
+    <div class="input-box">
+    <input type="text" readonly id="w_num" value="" placeholder="0" maxlength="16">
+    </div>
+    <table>
+    <tr>
+    <td> 
+    <button onclick="removeLastNum()" style="color: #555">&lt---</button></td>
+    <td><button>CE</button></td>
+    <td><button onclick="inputRemove()">C </button></td>
+    <td><button>+-</button></td>
+    <td><button style="color: #555; font-size:12px" onclick ="squrtBtn()"><i class="fa fa check"> OK</i></button></td>
+    </tr>
+    <tr>
+    <td><button onclick="btnNum(7)"> 7 </button></td>
+    <td><button onclick="btnNum(8)"> 8 </button></td>
+    <td><button onclick="btnNum(9)"> 9 </button></td>
+    <td><button onclick="btnMark('/')">/ </button></td>
+    <td><button onclick="btnMark('%)"> % </button></td>
+    </tr>
+    <tr>
+    <td><button onclick="btnNum(4)"> 4 </button></td>
+    <td><button onclick="btnNum(5)"> 5 </button></td>
+    <td><button onclick="btnNum(6)"> 6 </button></td>
+    <td><button onclick="btnMark('*')">*</button></td>
+    <td><button >1/X </button></td>
+    </tr>
+    <tr>
+    <td><button onclick="btnNum(1)"> 1 </button></td>
+    <td><button onclick="btnNum(2)"> 2 </button></td>
+    <td><button onclick="btnNum(3)"> 3 </button></td>
+    <td><button onclick="btnMark('-')">-</button></td>
+    <td rowspan="2"><button onclick="result()">=</button></td>
+    </tr>
+    <tr>
+    <td colspan="2"><button onclick="btnNum(0)">0</button></td>
+    <td><button id="point" onlcick=dcimal('.')">.</button></td>
+    <td><button id="plus" onlcick=btnMark'+')">+</button></td>
+    </tr>
+    </table>
+    </div>
+    </div>
+        
